@@ -1,5 +1,7 @@
 import Header from "../Header";
 import Button from "../Button";
+import YellowImage from "../../assets/Image/yellow.png"
+
 
 const Yellow = ({updateFunction}) => {
     const goToHome = ()=> {
@@ -11,8 +13,7 @@ const Yellow = ({updateFunction}) => {
             Yellow is a color that stands for joy and happiness. It also holds a strong connection to creativity and inspiration. 
         </div>
         <Button className="home-button" name="Home" updateFunction={goToHome} />
-        <img src="../../public/yellow.png" alt="yellow picture"/>
-
+        <img src={YellowImage} alt="yellow picture" />
         </>
     )
 }

@@ -14,7 +14,6 @@ const Green = ({ updateFunction }) => {
       </div>
       <Button className="home-button" name="Home" updateFunction={goToHome} />
       <img src={GreenImage} alt="green picture" />
-  
     </>
   );
 };

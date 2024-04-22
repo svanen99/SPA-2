@@ -1,5 +1,7 @@
 import Header from "../Header";
 import Button from "../Button";
+import BlueImage from "../../assets/Image/blue.png"
+
 
 const Blue = ({ updateFunction }) => {
   const goToHome = () => {
@@ -12,8 +14,7 @@ const Blue = ({ updateFunction }) => {
         The color blue is a color that is associated with inteligens, peace and trust. And is also a very boring color. 
       </div>
       <Button className="home-button" name="Home" updateFunction={goToHome} />
-      <img src="../../public/blue.png" alt="blue picture"/>
-
+      <img src={BlueImage} alt="blue picture" />
     </>
   );
 };
